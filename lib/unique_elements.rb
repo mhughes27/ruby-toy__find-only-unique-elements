@@ -3,4 +3,9 @@
 # once.
 def find_unique_elements(arr)
   
+#Algorithmic Process
+#Create an array that includes elements without the repeats
+#Create a hash that pairs each element of the new array with how many times it appears in the original array
+#Any key-value pair that has 1 for a value is unique and gets placed in the desired array
+  
 end
