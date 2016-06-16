@@ -15,6 +15,6 @@ arr.each do |x|
 end
 
 new_hash.delete_if {|key, value| value != 1}
-new_hash.each.key {|key| puts key}
+new_hash.each_key {|key| puts key}
 
 end
